@@ -1,0 +1,5 @@
+CREATE TABLE customer (
+    id SERIAL NOT NULL PRIMARY KEY,
+    firstName VARCHAR (128) NOT NULL,
+    lastName VARCHAR (128) NOT NULL
+);
